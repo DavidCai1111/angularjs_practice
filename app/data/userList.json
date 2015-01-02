@@ -1,0 +1,11 @@
+[{
+	"id":"1",
+	"name":"admin",
+	"passwd":"admin",
+	"permission" : "1"
+}, {
+	"id":"2", 
+	"name":"1",
+	"passwd":"1",
+	"permission":"0"
+}]

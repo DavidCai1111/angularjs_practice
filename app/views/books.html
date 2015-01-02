@@ -1,0 +1,18 @@
+<table class="table table-striped">
+	<tr>
+		<th>书名</th>
+		<th>作者</th>
+		<th>价格</th>
+		<th>操作</th>
+	</tr>
+	<tr ng-repeat="book in books">
+		<td class="bookName">{{book.name}}</td>
+		<td>{{book.author}}</td>
+		<td>{{book.price | currency : "￥"}}</td>
+		<td>
+		<button class="btn btn-default" ng-click="modifyBook()">操作</button>
+		<button class="btn btn-danger" ng-click="deleteBook()">删除</button>
+		</td>
+	</tr>
+</table>
+<button class="btn btn-default" ng-click="exit()">退出</button>
